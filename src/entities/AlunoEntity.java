@@ -8,6 +8,10 @@ public class AlunoEntity {
         this.matricula = matricula;
         this.nome = nome;
     }
+    @Override
+    public String toString() {
+        return "Aluno: " + nome + " - Matrícula: " + matricula;
+    }
         public Integer getMatricula() {
         return matricula;
     }
